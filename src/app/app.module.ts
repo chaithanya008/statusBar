@@ -2,17 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NextService } from "./next.service";
+import { NextComponent } from './next.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NextComponent
   ],
   imports: [
     BrowserModule,
-
   ],
-  providers: [NextService],
+  providers: [],
   bootstrap: [AppComponent],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
