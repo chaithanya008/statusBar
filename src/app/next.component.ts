@@ -1,9 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Directive } from '@angular/core';
 
 @Component({
   selector: 'nextbutton',
-  template: `
-  <button (click) = "nextfunc()">Next</button> `
+  template: `<button (click) = "nextfunc()">Next</button>`
 })
 
 export class NextComponent{
